@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    @lang('messages.title')
                 </div>
 
                 <div class="links">
