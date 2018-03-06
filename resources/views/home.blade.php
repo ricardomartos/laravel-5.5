@@ -15,6 +15,7 @@
                     @endif
 
                     @lang('messages.logged-in')
+
                     <div class="row">
                         <div class="panel-body small">
                             <li class="dropdown">
