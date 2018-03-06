@@ -18,3 +18,9 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+//Route::post('/language', 'LanguageController@set')->name('route.language');
+
+//Route::post('changelocale', ['as' => 'route.language', 'uses' => 'LanguageController@changeLocale']);
+
+Route::get('lang/{lang}', ['as'=>'lang.switch', 'uses'=>'LanguageController@switchLang']);

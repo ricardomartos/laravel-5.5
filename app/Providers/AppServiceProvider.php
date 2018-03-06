@@ -24,6 +24,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        config([
+            'config/languages.php', // add your new config file here!
+        ]);
     }
 }

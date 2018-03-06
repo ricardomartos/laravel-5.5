@@ -3,7 +3,7 @@
 return [
 
     
-    'title' => 'Laravel English.',
+    'title' => 'Laravel English',
     
 
 ];
